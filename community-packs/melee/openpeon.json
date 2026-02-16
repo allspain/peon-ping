@@ -1,0 +1,55 @@
+{
+  "cesp_version": "1.0",
+  "name": "melee",
+  "display_name": "Super Smash Bros. Melee",
+  "version": "1.0.0",
+  "description": "Super Smash Bros. Melee sound effects for coding sessions",
+  "author": {
+    "name": "richard.klein",
+    "github": "allspain"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "tags": ["gaming", "smash-bros", "melee", "nintendo"],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/super-smash-bros_w1phC9J.mp3", "label": "Super Smash Bros!" },
+        { "file": "sounds/ready-go-super-smash-bros.mp3", "label": "Ready? Go!" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/melee-menu-select.mp3", "label": "Menu select" },
+        { "file": "sounds/shine-intensifies.mp3", "label": "Shine!" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/melee-wow.mp3", "label": "Wow!" },
+        { "file": "sounds/shine-intensifies.mp3", "label": "Shine!" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/defeated_pSQo23x.mp3", "label": "Defeated..." }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/marth-melee-counter-voice.mp3", "label": "Marth counter!" },
+        { "file": "sounds/melee-menu-select.mp3", "label": "Menu select" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/defeated_pSQo23x.mp3", "label": "Defeated..." }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/hiyah-melee-fox-sound-effect.mp3", "label": "Fox hiyah!" }
+      ]
+    }
+  }
+}
